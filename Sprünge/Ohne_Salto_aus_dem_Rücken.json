@@ -1,0 +1,81 @@
+{
+    "Ohne_Salto_aus_dem_Rücken": [
+        {
+            "name": "",
+            "saltorotationen": "",
+            "schraubenrotationen": "",
+            "position": "",
+            "Landung": ""
+        },
+        {
+            "name": "Stand",
+            "saltorotationen": "1",
+            "schraubenrotationen": "0",
+            "position": "Gestreckt",
+            "Landung": "Stand"
+        },
+        {
+            "name": "Halbe Schraube zum Stand",
+            "saltorotationen": "1",
+            "schraubenrotationen": "1",
+            "position": "Gestreckt",
+            "Landung": "Stand"
+        },
+        {
+            "name": "Ganze Schraube zum Stand",
+            "saltorotationen": "1",
+            "schraubenrotationen": "2",
+            "position": "Gestreckt",
+            "Landung": "Stand"
+        },
+        {
+            "name": "Bauch",
+            "saltorotationen": "2",
+            "schraubenrotationen": "0",
+            "position": "Gestreckt",
+            "Landung": "Bauch"
+        },
+        {
+            "name": "Halbe Schraube zum Bauch",
+            "saltorotationen": "0",
+            "schraubenrotationen": "1",
+            "position": "Gestreckt",
+            "Landung": "Bauch"
+        },
+        {
+            "name": "Ganze Schraube zum Bauch",
+            "saltorotationen": "2",
+            "schraubenrotationen": "2",
+            "position": "Gestreckt",
+            "Landung": "Bauch"
+        },
+        {
+            "name": "Halbe Schraube zum Rücken",
+            "saltorotationen": "2",
+            "schraubenrotationen": "1",
+            "position": "Gestreckt",
+            "Landung": "Rücken"
+        },
+        {
+            "name": "Ganze Schraube zum Rücken",
+            "saltorotationen": "0",
+            "schraubenrotationen": "2",
+            "position": "Gestreckt",
+            "Landung": "Rücken"
+        }, 
+        {
+            "name": "Sitz",
+            "saltorotationen": "1",
+            "schraubenrotationen": "0",
+            "position": "Gestreckt",
+            "Landung": "Sitz"
+        },
+        {
+            "name": "Halbe Schraube zum Sitz",
+            "saltorotationen": "1",
+            "schraubenrotationen": "1",
+            "position": "Gestreckt",
+            "Landung": "Sitz"
+        }
+    ]
+}

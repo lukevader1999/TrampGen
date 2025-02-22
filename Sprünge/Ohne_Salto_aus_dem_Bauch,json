@@ -1,0 +1,58 @@
+{
+    "Ohne_Salto_aus_dem_Bauch": [
+        {
+            "name": "Stand",
+            "saltorotationen": "1",
+            "schraubenrotationen": "0",
+            "Landung": "Stand"
+        },
+        {
+            "name": "Halbe Schraube zum Stand",
+            "saltorotationen": "1",
+            "schraubenrotationen": "1",
+            "Landung": "Stand"
+        },
+        {
+            "name": "Ganze Schraube zum Stand",
+            "saltorotationen": "1",
+            "schraubenrotationen": "2",
+            "Landung": "Stand"
+        },
+        {
+            "name": "Rücken",
+            "saltorotationen": "2",
+            "schraubenrotationen": "0",
+            "Landung": "Rücken"
+        },
+        {
+            "name": "Halbe Schraube zum Rücken",
+            "saltorotationen": "0",
+            "schraubenrotationen": "1",
+            "Landung": "Rücken"
+        },
+        {
+            "name": "Sitz",
+            "saltorotationen": "1",
+            "schraubenrotationen": "0",
+            "Landung": "Sitz"
+        },
+        {
+            "name": "Halbe Schraube zum Sitz",
+            "saltorotationen": "1",
+            "schraubenrotationen": "1",
+            "Landung": "Sitz"
+        },
+        {
+            "name": "Halber Heli",
+            "saltorotationen": "0",
+            "schraubenrotationen": "0",
+            "Landung": "Bauch"
+        },
+        {
+            "name": "Ganzer Heli",
+            "saltorotationen": "0",
+            "schraubenrotationen": "0",
+            "Landung": "Bauch"
+        }
+    ]
+}

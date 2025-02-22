@@ -1,0 +1,108 @@
+{
+    "Ohne_Salto_aus_dem_Siz": [
+        {
+            "name": "",
+            "saltorotationen": "",
+            "schraubenrotationen": "",
+            "position": "",
+            "Landung": ""
+        },
+        {
+            "name": "",
+            "saltorotationen": "",
+            "schraubenrotationen": "",
+            "Landung": ""
+        },
+        {
+            "name": "Stand",
+            "saltorotationen": "0",
+            "schraubenrotationen": "0",
+            "position": "Gestreckt",
+            "Landung": "Stand"
+        },
+        {
+            "name": "Hocke zum Stand",
+            "saltorotationen": "0",
+            "schraubenrotationen": "0",
+            "position": "Hocke",
+            "Landung": "Stand"
+        },
+        {
+            "name": "Bücke zum Stand",
+            "saltorotationen": "0",
+            "schraubenrotationen": "0",
+            "position": "Bücke",
+            "Landung": "Stand"
+        },
+        {
+            "name": "Grätsche zum Stand",
+            "saltorotationen": "0",
+            "schraubenrotationen": "0",
+            "position": "Grätsche",
+            "Landung": "Stand"
+        },
+        {
+            "name": "Hocke zum Sitz",
+            "saltorotationen": "0",
+            "schraubenrotationen": "0",
+            "position": "Hocke",
+            "Landung": "Sitz"
+        },
+        {
+            "name": "Bücke zum Sitz",
+            "saltorotationen": "0",
+            "schraubenrotationen": "0",
+            "position": "Bücke",
+            "Landung": "Sitz"
+        },
+        {
+            "name": "Grätsche zum Sitz",
+            "saltorotationen": "0",
+            "schraubenrotationen": "0",
+            "position": "Grätsche",
+            "Landung": "Stand"
+        },
+        {
+            "name": "Halbe Schraube zum Stand",
+            "saltorotationen": "0",
+            "schraubenrotationen": "1",
+            "Landung": "Stand"
+        },
+        {
+            "name": "Ganze Schraube zum Stand",
+            "saltorotationen": "0",
+            "schraubenrotationen": "2",
+            "Landung": "Stand"
+        },
+        {
+            "name": "Halbe Sitz",
+            "saltorotationen": "0",
+            "schraubenrotationen": "1",
+            "Landung": "Sitz"
+        },
+        {
+            "name": "Ganze Schraube Sitz",
+            "saltorotationen": "0",
+            "schraubenrotationen": "2",
+            "Landung": "Sitz"
+        },
+        {
+            "name": "Bauch",
+            "saltorotationen": "1",
+            "schraubenrotationen": "0",
+            "Landung": "Bauch"
+        },
+        {
+            "name": "Rücken",
+            "saltorotationen": "0",
+            "schraubenrotationen": "0",
+            "Landung": "Rücken"
+        },
+        {
+            "name": "Halbe Schraube zum Rücken",
+            "saltorotationen": "1",
+            "schraubenrotationen": "1",
+            "Landung": "Rücken"
+        }
+    ]
+}

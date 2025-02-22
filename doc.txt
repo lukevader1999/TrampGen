@@ -1,0 +1,1 @@
+Wenn in den json-Objekten die Position weggelassen wird soll beim Importieren gestreckt als default value gesetzt werden
