@@ -1,0 +1,13 @@
+{
+  "Grätsche": "S S r 4 2 a",
+  "Bücke": "S S r 4 2 b",
+  "Hocke": "S S r 4 2 c",
+  "Bauch": "F B v 1 2 c",
+  "Salto rückwärts gestreckt": "S R r 1 2 a",
+  "Salto rückwärts gebeugt": "S R r 1 2 b",
+  "Salto rückwärts gehockt": "S R r 1 2 c",
+  "Salto vorwärts gestreckt": "S R v 1 1 a",
+  "Salto vorwärts gebeugt": "S R v 1 1 b",
+  "Salto vorwärts gehockt": "S R v 1 1 c",
+  "Rücken": "F R r 1 2 c"
+}
