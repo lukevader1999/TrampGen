@@ -3,9 +3,11 @@ import json
 from berechne_endposition import berechne_endposition
 
 class Sprung():
-    def __init__(self, json_path = "", data_dict = {}):
-        if len(data_dict) == 0:
+    def __init__(self, json_path = "", data_dict = {}, code = ""):
+        if json_path != "":
             self.init_from_json(json_path=json_path)
+        elif code != "":
+            self.init_from_code(code_str=code)
         else:
             self.init_from_dict(data_dict=data_dict)
 
@@ -92,12 +94,29 @@ class Sprung():
         with open(file_path, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
 
+    def init_from_code(self, code_str):
+        # Erwartetes Format: "start ende richtung rotationen schrauben position"
+        parts = code_str.strip().split()
+        if len(parts) != 6:
+            raise ValueError("Ungültiges Code-Format für Sprung!")
+        self.start = parts[0]
+        self.ende = parts[1]
+        self.richtung = parts[2]
+        self.rotationen = int(parts[3])
+        self.schrauben = int(parts[4])
+        self.position = parts[5]
+        self.code = self.generate_code()
+
 if __name__ == "__main__":
     # Bauch-Test
-    json_path_bauch = r"/home/erik/GitRepos/TrampGen/Sprung_Datenbank/Bauch.JSON"
-    mySprungBauch = Sprung(json_path=json_path_bauch)
-    mySprungBauch.save_sprung()
+    #json_path_bauch = r"/home/erik/GitRepos/TrampGen/Sprung_Datenbank/Bauch.JSON"
+    #mySprungBauch = Sprung(json_path=json_path_bauch)
+    #mySprungBauch.save_sprung()
     # Rücken-Test
-    json_path_ruecken = r"/home/erik/GitRepos/TrampGen/Sprung_Datenbank/Ruecken.JSON"
-    mySprungRuecken = Sprung(json_path=json_path_ruecken)
-    mySprungRuecken.save_sprung()
+    #json_path_ruecken = r"/home/erik/GitRepos/TrampGen/Sprung_Datenbank/Ruecken.JSON"
+    #mySprungRuecken = Sprung(json_path=json_path_ruecken)
+    #mySprungRuecken.save_sprung()
+    #Komischer Sprung
+    code = "S S v 2 1 c"
+    mySprungKomisch = Sprung(code=code)
+    print(mySprungKomisch.input_valid())

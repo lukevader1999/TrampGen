@@ -29,4 +29,4 @@ def berechne_endposition(start, richtung, rotation, schrauben):
     elif end_index in [1,3]:
         return [positionen[end_index]]
     else:
-        return [positionen[end_index]]
+        return []

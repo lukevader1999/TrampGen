@@ -24,7 +24,13 @@ def benenne_und_speichere_sprung():
     print("Zufälliger Sprung:")
     sprung.print_self()
     benutzeraktion = input("Gib einen guten Namen für diesen Sprung ein (oder 'löschen' zum Entfernen): ")
-    if benutzeraktion.strip().lower() == 'löschen':
+
+    # Entferne den Sprung aus der Ursprungsdatei
+    del spruenge[sprung_name]
+    with open("spruenge_generiert.JSON", "w", encoding="utf-8") as f:
+        json.dump(spruenge, f, indent=2, ensure_ascii=False)
+
+    if benutzeraktion.strip().lower() in  ["l",'löschen']:
         # In ungültige_spruenge.json speichern
         try:
             with open("ungueltige_spruenge.json", "r", encoding="utf-8") as f:
