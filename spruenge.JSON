@@ -1,4 +1,7 @@
 {
   "Bauch": "F B v 1 0 a",
-  "Rücken": "F R r 1 0 a"
+  "Rücken": "F R r 1 0 a",
+  "Salto rw a": "F F r 4 0 a",
+  "1 Schraube z. Stand": "S F v 0 2 c",
+  "1/2 Schraube in den Rücken": "S R v 1 1 c"
 }
