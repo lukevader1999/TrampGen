@@ -1,0 +1,261 @@
+Wettkampfverfahren
+Allgemeine Bestimmungen
+
+Gerät zur exakten Berechnung der Sprunghöhe auf dem Trampolin
+Eine Übung auf dem Trampolin umfasst 10 Sprünge, was 10 Tuchberührungen entspricht. Sie wird aus dem Anspringen mit dem ersten von einem Strecksprung abweichenden Sprung begonnen. Erlaubt sind Landungen auf beiden Füßen, im Sitzen (Sitzlandung), auf dem Rücken (Rückenlandung) oder auf dem Bauch (Bauchlandung). Der letzte Sprung einer Übung muss immer in den Stand geturnt werden. Eine gute Übung zeichnet sich zum einen durch eine sichere korrekte Ausführung und gestreckte Körperglieder aus, bewertet als Haltung, zum anderen durch eine hohe Schwierigkeit. Übungen werden einzeln oder in einem Synchronwettkampf zu zweit auf nebeneinander stehenden Geräten geturnt.
+
+Die Haltungsnoten werden von 5 Kampfrichtern bestimmt. Für 10 perfekte Sprünge kann man pro Kampfrichter 10 Punkte bekommen. Von diesen 10 Punkten werden die Haltungsabzüge subtrahiert. Die höchste und niedrigste Haltungsnote werden gestrichen und die verbleibenden drei Noten ergeben in der Summe die Haltungsnote. Für die Ermittlung des Schwierigkeitswertes sind ein bis zwei Kampfrichter zuständig, die gemeinsam einen Schwierigkeitswert berechnen (siehe Schwierigkeitsberechnung). In Synchronwettkämpfen wird die Haltung jedes der beiden Turner von zwei Kampfrichtern bestimmt, von deren insgesamt vier Noten ebenfalls die höchste und niedrigste Note gestrichen werden. Die Synchronität bewerten 3 Kampfrichter, deren nach den Streichungen verbleibende mittlere Note verdoppelt in das Gesamtergebnis eingeht. In Einzelwettkämpfen wird zusätzlich von einem speziellen Gerät die Sprunghöhe auf 5⁄1000 gerundet gemessen. Ein extra für dieses Gerät zuständiger Kampfrichter zeigt das Ergebnis auf.
+
+Es wird unterschieden in Pflicht- und Kürübungen. Pflichtübungen sind 10-teilige Übungen mit vorgegebenen Elementen. Kürübungen werden aus 10 beliebigen und verschiedenen Sprungelementen kombiniert. In den Kürübungen gilt es, den Schwierigkeitsgrad der Elemente in Kombination mit der Ausführung dieser zu optimieren. Ein Wettkampf hat im Normalfall 3 Durchgänge:
+
+Pflichtübung (auch: 1. Übung), bei der nur die Ausführung bewertet wird (Ausnahme: Übung M10, hier wird die Schwierigkeit von 2 beliebigen Sprüngen mitbewertet. Diese 2 bewerteten Sprünge dürfen in der Kür nicht wiederholt werden.)
+Kürübung (auch: 2. Übung), bei der Ausführung und Schwierigkeit bewertet werden
+Finale, bei dem in der Regel die acht oder zehn besten Turner aus dem Vorkampf eine zweite Kür turnen. Sind im Vorkampf weniger als zwölf Aktive am Start, nehmen zwei Drittel der Teilnehmer am Finale teil.
+Schwierigkeitsberechnung
+Die Schwierigkeit eines Sprunges wird durch die Anzahl der Rotationen um die Körper-Längsachse (Schrauben) und die Körper-Querachse (Salto) bestimmt. Hierbei ist die Stellung des Oberkörpers maßgeblich. Ein seitlich gesprungener Salto (Radschlag in der Luft, sogenannter Araber) erfordert ein ausgeprägtes Gleichgewichtsempfinden, wird nur von wenigen beherrscht, gilt als unfallträchtig und ist im offiziellen Wettkampfsport nicht vorgesehen.
+
+Sprünge, bei denen der Oberkörper seine Stellung nicht verändert, zählen Null Punkte. Hierzu gehören der Stand-, Grätsch-, Hock-, Bück-, Grätschwinkel- (kombinierte Grätsche/Bücke) sowie der Sitzsprung.
+
+Je 1⁄2-Schraube (Drehung um 180 Grad um die Längsachse des Körpers) gibt es 0,1 Punkte,
+Je 1⁄4-Salto (Drehung des Oberkörpers um 90 Grad um die Breitenachse des Körpers) gibt es ebenfalls 0,1 Punkte.
+Als Bonus gibt es 0,1 Punkte für jede volle 360 Grad Salto-Rotation.
+Als Bonus gibt es 0,1 Punkte für jeden vollen Salto in gestreckter oder gebückter Ausführung bei Einfachsalti ohne Schrauben bzw. Mehrfachsalti mit und ohne Schrauben.
+Ein Sprung vom Stand in die Rückenlandung zählt als 1⁄4 Salto rückwärts und wird somit mit 0,1 Punkten in der Schwierigkeit bewertet. Ein Sprung vom Stand in den Sitz hat keine Schwierigkeitswertung, da weder eine Schraube noch ein Viertelsalto (keine Oberkörperbewegung) gesprungen wurde.
+
+Hier einige Beispiele:
+
+Sprung	Schwierigkeit	
+Salto vw/rw c	0,5	
+Salto vw/rw a,b	0,6	
+Barani a, b und c	0,6	Vorwärtssalto mit 1⁄2 Schraube
+Schraubensalto	0,7	Rückwärtssalto gestreckt mit 1⁄1 Schraube
+Rudolph	0,8	Vorwärtssalto mit 1 1⁄2 Schraube
+Doppelschraubensalto	0,9	Rückwärtssalto gestreckt mit 2⁄1 Schraube
+Randolph	1,0	Vorwärtssalto mit 2 1⁄2 Schraube
+Doppelsalto rw c	1,0	
+Doppelsalto rw b	1,2	
+Fliffis b	1,3	Doppelsalto vorwärts gebückt mit halber Schraube im zweiten Salto
+a = gestreckte Position, b = gebückte Position, c = gehockte Position, rw = rückwärts, vw = vorwärts
+
+Den aktuellen Schwierigkeits-Weltrekord hält seit dem 12. Juni 2010 Jason Burnett (CAN). Er zeigte einen Schwierigkeitsgrad von 18,8 Punkten beim Nissen-Cup in der Schweiz.
+
+Pflichtübungen
+Pflichtübungen des Deutschen Turner-Bundes (DTB) (EDV-Nummern 611 – 919) Stand: 2015[1][2] Die Pflichtübungen gehen von P1–P9 und M5–M10 (M=Meisterklasse)
+
+P1
+Sitzsprung
+1⁄2 Schraube in den Stand
+Grätschwinkelsprung
+1⁄2 Standsprungschraube
+Hocksprung
+P2
+Sitzsprung
+1⁄2 Schraube in den Stand
+Grätschwinkelsprung
+Sitzsprung
+Sprung in den Stand
+Hocksprung
+1⁄2 Standsprungschraube
+P3
+Sitzsprung
+1⁄2 Schraube in den Sitz
+Sprung zum Stand
+Hocksprung
+1⁄2 Schraube in den Sitz
+1⁄2 Schraube in den Stand
+Grätsche
+Sitzsprung
+Sprung in den Stand
+1⁄1 Standsprungschraube
+P4
+1⁄2 Schraube in den Sitz (halbe Sitz)
+1⁄2 Schraube in den Sitz (halbe Sitz)
+1⁄2 Schraube in den Stand (halbe Stand)
+Grätsche
+Rückensprung
+Sprung in den Stand
+1⁄2 Schraube
+Hocksprung
+1⁄1 Schraube
+Bücke
+P5
+Bücke
+1⁄2 Schraube in den Sitz (halbe Sitz)
+1⁄2 Schraube in den Stand (halbe Stand)
+Grätschwinkelsprung
+Rückensprung
+1⁄2 Schraube in den Stand (halbe Stand)
+Sitzsprung
+Sprung in den Stand
+Hocke
+Salto rückwärts c
+P6
+Salto rückwärts c
+1⁄2 Schraube in den Sitz (halbe Sitz)
+½ Schraube in den Stand (halbe Stand)
+Grätschwinkelsprung
+Rückensprung
+1⁄2 Schraube in den Stand (halbe Stand)
+Hocke
+1⁄2 Standsprungschraube (halbe Stand)
+Bücksprung
+Salto rückwärts b
+P7
+Bauchsprung
+Sprung in den Stand
+Grätschwinkelsprung
+Salto rückwärts c
+½ Schraube in den Sitz (halbe Sitz)
+Sprung in den Stand
+Bücke
+Salto rückwärts b
+Hocke
+Barani c
+P8
+1⁄2 Schraube in die Bauchlage (halbe Bauch)
+Sprung in den Stand
+Hocke
+Salto rückwärts c in den Sitz
+1⁄2 Schraube zum Stand (halbe Stand)
+Bücke
+Salto rückwärts b
+Grätschwinkelsprung
+Salto rückwärts c
+Barani c oder b
+M5
+3⁄4 Salto rückwärts a
+Stand
+Grätschwinkelsprung
+Salto rückwärts c
+Barani (frei)
+Bücke
+Salto b rw
+Hocksprung
+Salto c rw in den Rücken
+1⁄2 Drehung in den Stand
+M6
+10 verschiedene Übungsteile, die folgenden 4 Pflichtsprünge an beliebiger Stelle:
+
+3⁄4 Salto rückwärts a
+Barani c oder b
+3⁄4 Salto vw a
+Baby-Fliffis
+Maximal drei Sprünge mit weniger als 270° Saltorotation.
+
+M7
+10 verschiedene Übungsteile, die folgenden 4 Pflichtsprünge an beliebiger Stelle:
+
+3⁄4 Salto rückwärts a
+Cody c
+Barani a
+Babyfliffis c oder b
+Maximal zwei Sprünge mit weniger als 270° Saltorotation.
+
+W11/12
+
+10 verschiedene Übungsteile, die folgenden 2 Pflichtsprünge an beliebiger Stelle:
+
+Ein Sprung in den Bauch
+Ein Sprung in den Rücken
+Maximal zwei Sprünge mit weniger als 270° Saltorotation.
+
+M8
+Zehn verschiedene Übungsteile, folgende 4 Pflichtsprünge an beliebiger Stelle:
+
+3⁄4 Salto rückwärts b
+Schraubensalto
+Rudolf oder Baby-Rudi
+Ein Sprung mit mindestens 630° Saltorotation
+Maximal ein Sprung mit weniger als 270° Saltorotation.
+
+W13/14
+
+Zehn verschiedene Übungsteile, folgende 3 Pflichtsprünge an beliebiger Stelle:
+
+Schraubensalto
+Ein Sprung in den Bauch
+Ein Sprung in den Rücken
+Maximal ein Sprung mit weniger als 270° Saltorotation.
+
+W15/16
+
+Zehn verschiedene Übungsteile, folgende 3 Pflichtsprünge an beliebiger Stelle:
+
+Rudolph oder Babyrudolph
+Schraubensalto
+Ein Sprung in den Bauch oder in den Rücken
+Maximal ein Sprung mit weniger als 270° Saltorotation.
+
+M9a
+Zehn verschiedene Übungsteile, folgende 4 Pflichtsprünge an beliebiger Stelle:
+
+Ein Sprung in Bauch- oder Rückenlage
+Ein Sprung aus der Bauch- oder Rückenlage in Kombination mit Bedingung 1
+Ein Doppelsalto vorwärts oder rückwärts mit oder ohne Schrauben
+Ein Sprung mit mindestens 540° Schraubenrotation
+Jeder Sprung muss mindestens 270° Saltorotation haben.
+
+M9b
+Zehn verschiedene Übungsteile, folgende 4 Pflichtsprünge an beliebiger Stelle:
+
+Ein Doppelsalto vorwärts oder rückwärts mit oder ohne Schrauben
+Ein Sprung mit mindestens 540° Schraubenrotation
+Zwei Übungsteile, welche auf der Wettkampfkarte mit einem Sternchen markiert werden, gehen mit ihrem Schwierigkeitsgrad zusätzlich in die Pflicht-Endwertung ein.
+Keiner dieser beiden Sprünge darf in der 1. Kürübung wiederholt werden, ansonsten zählt der Schwierigkeitsgrad des wiederholten Sprunges nicht.
+Jeder Sprung muss mindestens 270° Saltorotation haben.
+
+FIG B/ W17/18
+
+Zehn verschiedene Übungsteile, folgende 4 Pflichtsprünge an beliebiger Stelle:
+
+Ein Sprung in den Bauch oder in den Rücken
+Ein Sprung vom Bauch oder Rücken in Verbindung mit Pflichtsprung 1
+Ein Doppelsalto vorwärts oder rückwärts mit oder ohne Schrauben
+Ein Übungsteil mit mindestens 540° Schrauben UND mindestens 360° Saltorotation
+Jeder Sprung muss mindestens 270° Saltorotation haben.
+
+M10
+Zehn verschiedene Übungsteile, jedes mit einem Minimum von 270° Saltorotation
+
+Zwei (2) Übungsteile, welche auf der Wettkampfkarte mit einem Sternchen markiert werden, gehen mit ihrem Schwierigkeitsgrad zusätzlich in die Pflichtendwertung ein.
+Keiner dieser beiden Sprünge darf in der 1. Kürübung wiederholt werden, ansonsten zählt der Schwierigkeitsgrad des wiederholten Sprunges nicht.
+FIG A
+
+Zehn verschiedene Übungsteile, jedes mit einem Minimum von 270° Saltorotation
+
+Vier Elemente, die auf der Wettkampfkarte mit einem Sternchen (*) markiert werden, gehen mit ihrem Schwierigkeitsgrad zusätzlich in die Pflichtendwertung ein.
+Keiner dieser vier Sprünge darf in der ersten Kür (Vorkampf) wiederholt werden, sonst zählt der Schwierigkeitsgrad des wiederholten Sprunges in der ersten Kürübung nicht.
+Technik
+Im Spitzenleistungsbereich werden bei internationalen Wettkämpfen Kürübungen aus Dreifachsaltos und überwiegend Doppelsaltos gezeigt. Die Turner führen innerhalb kürzester Zeit zahlreiche schnelle und komplexe Bewegungen aus und landen dennoch aufrecht, sicher und bereit für den nächsten Absprung. Dabei werden Sprunghöhen von mehr als fünf Metern über dem Trampolinniveau erreicht, die mit Belastungen des mehrfachen Körpergewichts während des Kontakts mit dem Gerät im Wechsel mit der Schwerelosigkeit verbunden sind.
+
+Die größte Schwierigkeit in der Beherrschung solcher Sprunghöhen liegt darin, die bei der Rückfederung des Trampolintuchs freiwerdende Energie zu kontrollieren, exakt in Aufwärtsrichtung zu lenken, und nicht etwa darin, sich kräftig genug abzustoßen. Dies ist nur mit ausgezeichneter Stabilisierung, der sogenannten Spannung, des gesamten Körpers möglich, woran die Muskelgruppen des Schultergürtels und des gesamten Rumpfes wesentliche Anteile haben.
+
+Die Absprungphase ist für die Ausführung eines einzelnen Sprungs entscheidend, denn nur hier können aufgrund des Kontakts mit dem Gerät die Richtung und der Drehimpuls der Bewegung beeinflusst werden. Die Arme werden möglichst senkrecht nach oben gehalten. Schon eine kleine Abweichung davon führt bei der hohen Beschleunigung zu sehr großen Haltekräften. Daneben werden im Absprung durch schnellkräftiges Beschleunigen der Beine nach vorne (Schienbeindruck) oder hinten (Fersendruck) Saltorotationen in Rückwärts- bzw. Vorwärtsrichtung erzeugt.
+
+Die Flugphase ist unterteilt in die Einleitung, in der Schraubrotationen erzeugt werden sowie ggf. zu von der Streckung (a-Position) abweichenden Körperpositionen wie Bücke (b-Position) oder Hocke(C-Position) übergegangen wird, sowie die sogenannte Öffnung, innerhalb derer für die Landung wieder eine gestreckte Position eingenommen wird. Durch Veränderungen der Körperhaltung können die Salto- und Schraubrotation beeinflusst werden. Eine asymmetrische Verlagerung der Arme wandelt zwischen Salto- und Schraubrotation, was physikalisch bestätigt ist.
+
+Die faszinierende Komplexität der schwierigen Sprünge wie zum Beispiel ein Doppelsalto rückwärts mit eingehender 1⁄2 Schraube und ausgehenden 1 1⁄2 Schrauben (im Kurzjargon „1⁄2 ein – Rudi aus“ genannt) ist möglich durch große Anteile an nicht bewusst gesteuerten Bewegungen. Hierzu werden Sprünge im Training sehr oft wiederholt, so dass Bewegungsabläufe als Automatismus programmartig ausführbar sind und bewusst lediglich kurz angestoßen werden müssen. Bei neuen Sprüngen kann auf bereits Erlerntes zurückgegriffen werden. Diese Methode funktioniert nicht nur bei Leistungsturnern, jeder durchschnittlich begabte Sportler ist grundsätzlich fähig, einen einfachen Salto zu erlernen. Die Trainer sind für die Leistungen der Turner bedeutend, denn die richtige Vermittlung und Kontrolle der Sprungtechniken ermöglichen optimale Fortschritte und die stetige Erhaltung der Fähigkeit, Haltung und Schwierigkeit zu steigern.
+
+Terminologie
+Verschiedene Sprünge haben Eigennamen bekommen, da dies die Unterhaltung über die Sprünge deutlich erleichtert.[3]
+
+Adolf (Adi) – Salto vorwärts mit 3 1⁄2 Schrauben
+Baby-Fliffis – 5⁄4 Salto vorwärts mit 1⁄2 Schraube aus dem Rücken
+Barani – Salto vorwärts mit 1⁄2 Schraube
+Cody – 5⁄4 Salto rückwärts aus dem Bauch zum Stand
+Doppelschraube – Salto rückwärts mit doppelter Schraube
+Fliffis – Doppelsalto vorwärts mit 1⁄2 Schraube im zweiten Salto
+HalfFullFull- 3facher Salto mit insgesamt 2.5 Schrauben (erster Vorwärtssalto 1/2 Schrauben in den 2 letzten Rückwärtssaltos je eine Umdrehung)
+Halb-ein halb-aus – Doppelsalto rückwärts mit 1⁄2 Schraube im ersten und 1⁄2 Schraube im zweiten Salto
+Miller – Doppelsalto rückwärts mit dreifacher Schraube (ursprünglich 2-1/2-Ein-Barani-Aus, heute meist Voll-Ein-Doppel-Aus, benannt nach Wayne Miller 1964/5)
+Miller Plus (Killer) – Doppelsalto rückwärts mit vierfacher Schraube
+Kaboom – 3⁄4 Salto rückwärts aus dem Rücken zum Stand bzw. aus dem Rücken Salto rückwärts zum Rücken
+Randolf (Randi) – Salto vorwärts mit 2 1⁄2 Schrauben
+Super-Baby – 9⁄4 Salto vorwärts aus dem Rücken mit 1⁄2 Schraube zum Stand
+Rudolf (Rudi) – Salto vorwärts mit 1 1⁄2 Schrauben
+Schraubencody – 5⁄4 Salto rückwärts mit 1 Schraube aus dem Bauch zum Stand
+Schraubensalto (Kurzform „Schraube“, wegen Verwechslung mit allgemeiner Bedeutung nur zulässig im Kontext von Saltos) – Salto rückwärts mit ganzer Schraube; allgemein auch jeder Salto mit mindestens 1 Schraube
+Voll-Voll-Voll – Dreifachsalto mit je einer Schraube pro Salto
+Triffis – Dreifachsalto mit 1⁄2 Schraube im letzten Salto (Quadriffis = 4-fach usw., wobei noch nie jemand auf einem Wettkampf einen Quintriffis gesprungen ist.)
+X-Ein-Y-Aus – Doppelsalto mit X Schrauben im ersten und Y Schrauben im zweiten Salto; bei ganzzahliger Gesamtschraubenrotation handelt es sich um einen Rückwärtssalto (zum Beispiel Halb-Ein-Anderthalb-Aus), sonst um einen Vorwärtssalto (zum Beispiel Voll-Ein-Zweieinhalb-Aus); statt Halb-Aus sagt man auch Barani-Aus, entsprechend für Rudi usw.
+Ein Quatriffis b ist die bisher höchste je in einem Wettkampf gesprungene Schwierigkeit.
