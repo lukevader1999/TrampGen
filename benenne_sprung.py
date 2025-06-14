@@ -7,8 +7,8 @@ def benenne_und_speichere_sprung():
     with open("spruenge_generiert.JSON", "r", encoding="utf-8") as f:
         spruenge = json.load(f)
     # Wähle einen zufälligen Sprung
-    sprung_name = random.choice(list(spruenge.keys()))
-    sprung_code = spruenge[sprung_name]
+    sprung_code = random.choice(list(spruenge.keys()))
+    sprung_name = spruenge[sprung_code]
     # Erzeuge ein Sprung-Objekt aus dem Code
     code_parts = sprung_code.split()
     data = {
@@ -26,7 +26,7 @@ def benenne_und_speichere_sprung():
     benutzeraktion = input("Gib einen guten Namen für diesen Sprung ein (oder 'löschen' zum Entfernen): ")
 
     # Entferne den Sprung aus der Ursprungsdatei
-    del spruenge[sprung_name]
+    del spruenge[sprung_code]
     with open("spruenge_generiert.JSON", "w", encoding="utf-8") as f:
         json.dump(spruenge, f, indent=2, ensure_ascii=False)
 
@@ -37,7 +37,7 @@ def benenne_und_speichere_sprung():
                 ung_spruenge = json.load(f)
         except (FileNotFoundError, json.JSONDecodeError):
             ung_spruenge = {}
-        ung_spruenge[sprung_name] = sprung.code
+        ung_spruenge[sprung_code] = sprung.name
         with open("ungueltige_spruenge.json", "w", encoding="utf-8") as f:
             json.dump(ung_spruenge, f, indent=2, ensure_ascii=False)
         print(f"Sprung '{sprung_name}' wurde als ungültig gespeichert!")
@@ -48,5 +48,5 @@ def benenne_und_speichere_sprung():
         print(f"Sprung unter dem Namen '{benutzeraktion}' gespeichert!")
 
 if __name__ == "__main__":
-    for i in range(5):
-        benenne_und_speichere_sprung()
+    #for i in range(5):
+    benenne_und_speichere_sprung()

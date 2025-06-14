@@ -85,10 +85,10 @@ class Sprung():
         if file_path == "":
             file_path = r"spruenge.JSON"
 
-        key = self.name
+        key = self.code
         if key == "":
-            key = self.code
-        value = self.code
+            key = self.name
+        value = self.name
         
         # Bestehende Daten laden, falls vorhanden
         try:

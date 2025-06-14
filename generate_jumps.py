@@ -11,11 +11,11 @@ positionen = ["a", "b", "c"]
 
 # Lade bereits benannte Sprünge
 with open("spruenge.JSON", "r", encoding="utf-8") as f:
-    bereits_benannte = set(json.load(f).values())
+    bereits_benannte = set(json.load(f).keys())
 # Lade bereits als ungültig deklarierte Sprünge
 try:
     with open("ungueltige_spruenge.json", "r", encoding="utf-8") as f:
-        ungueltige = set(json.load(f).values())
+        ungueltige = set(json.load(f).keys())
 except (FileNotFoundError, json.JSONDecodeError):
     ungueltige = set()
 
@@ -49,7 +49,7 @@ for start in starts:
                         try:
                             sprung = Sprung(data_dict=data)
                             if sprung.code not in bereits_benannte and sprung.code not in ungueltige:
-                                spruenge[sprung.name] = sprung.code
+                                spruenge[sprung.code] = sprung.name
                             #else:
                                 #print(f"Sprung {sprung.code} bereits vorhanden oder ungültig, überspringe.")
                         except ValueError:
