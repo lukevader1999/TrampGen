@@ -5,8 +5,8 @@ from Sprung import Sprung
 starts = ["F", "B", "R", "S"]
 endes = ["F", "B", "R", "S"]
 richtungen = ["v", "r"]
-rotationen = range(0, 5)  # z.B. 0 bis 4 Vierteldrehungen
-schrauben = range(0, 3)   # z.B. 0 bis 2 Halbe-Schrauben
+rotationen = range(0, 2)  # z.B. 0 bis 4 Vierteldrehungen
+schrauben = range(0, 2)   # z.B. 0 bis 2 Halbe-Schrauben
 positionen = ["a", "b", "c"]
 
 # Lade bereits benannte Sprünge
@@ -27,6 +27,16 @@ for start in starts:
             for rotation in rotationen:
                 for schraube in schrauben:
                     for position in positionen:
+                        #if (start in ["R","B"]) or (ende in ["R","B"]):
+                        #    if rotation >= 2:
+                        #        continue
+
+                        if position != "a":
+                            continue
+
+                        if (start != "F") and (ende != "F"):
+                            continue
+
                         data = {
                             "name": f"{start}_{ende}_{richtung}_{rotation}_{schraube}_{position}",
                             "rotationen": str(rotation),

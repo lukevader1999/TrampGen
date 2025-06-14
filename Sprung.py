@@ -83,7 +83,7 @@ class Sprung():
     
     def save_sprung(self, file_path=""):
         if file_path == "":
-            file_path = r"/home/erik/GitRepos/TrampGen/spruenge.JSON"
+            file_path = r"spruenge.JSON"
 
         key = self.name
         if key == "":
