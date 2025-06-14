@@ -55,9 +55,15 @@ class Sprung():
         if self.position not in ["a", "b", "c", "gr"]:
             return False
         
+        #Ohne Rotationen muss die Richtung nicht definiert sein
+        #Mit Rotationen muss die Richtung definiert sein
         if self.rotationen == 0:
             if self.richtung != "-":
                 return False
+        else:
+            if self.richtung == "-":
+                return False
+            
         if self.position == "gr":
             if self.rotationen != 0 or self.schrauben != 0:
                 return False
@@ -125,6 +131,6 @@ if __name__ == "__main__":
     #mySprungRuecken = Sprung(json_path=json_path_ruecken)
     #mySprungRuecken.save_sprung()
     #Komischer Sprung
-    code = "S S v 2 1 c"
+    code = "F S - 0 0 a"
     mySprungKomisch = Sprung(code=code)
     print(mySprungKomisch.input_valid())

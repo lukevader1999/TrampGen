@@ -18,6 +18,8 @@ def berechne_endposition(start, richtung, rotation, schrauben):
         end_index = (start_index + steps) % 4
     elif richtung == 'r':
         end_index = (start_index - steps) % 4
+    elif richtung == "-":
+        end_index = start_index
     else:
         raise ValueError(f"Ungültige Richtung: {richtung}")
 

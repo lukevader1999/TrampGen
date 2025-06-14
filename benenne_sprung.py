@@ -48,5 +48,5 @@ def benenne_und_speichere_sprung():
         print(f"Sprung unter dem Namen '{benutzeraktion}' gespeichert!")
 
 if __name__ == "__main__":
-    #for i in range(5):
-    benenne_und_speichere_sprung()
+    for i in range(3):
+        benenne_und_speichere_sprung()

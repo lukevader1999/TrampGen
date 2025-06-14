@@ -4,7 +4,7 @@ from Sprung import Sprung
 # Alle zulässigen Werte laut Sprung.input_valid
 starts = ["F", "B", "R", "S"]
 endes = ["F", "B", "R", "S"]
-richtungen = ["v", "r"]
+richtungen = ["v", "r", "-"]
 rotationen = range(0, 2)  # z.B. 0 bis 4 Vierteldrehungen
 schrauben = range(0, 2)   # z.B. 0 bis 2 Halbe-Schrauben
 positionen = ["a", "b", "c"]
@@ -31,10 +31,9 @@ for start in starts:
                         #    if rotation >= 2:
                         #        continue
 
-                        if position != "a":
-                            continue
+                        #if (start == "S") or (ende == "S"):
 
-                        if (start != "F") and (ende != "F"):
+                        if not (position in ["a"]):
                             continue
 
                         data = {
