@@ -46,14 +46,22 @@ class Sprung():
 
 
     def input_valid(self):
-        if self.richtung not in ["v", "r"]:
+        if self.richtung not in ["v", "r", "-"]:
             return False
         if self.start not in ["F", "B", "R", "S"]:
             return False
         if self.ende not in ["F", "B", "R", "S"]:
             return False
-        if self.position not in ["a", "b", "c"]:
+        if self.position not in ["a", "b", "c", "gr"]:
             return False
+        
+        if self.rotationen == 0:
+            if self.richtung != "-":
+                return False
+        if self.position == "gr":
+            if self.rotationen != 0 or self.schrauben != 0:
+                return False
+
         soll_endposition = berechne_endposition(start= self.start, 
                                                 richtung= self.richtung, 
                                                 rotation=self.rotationen, 
