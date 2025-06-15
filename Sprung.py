@@ -3,7 +3,9 @@ import json
 from berechne_endposition import berechne_endposition
 
 class Sprung():
-    def __init__(self, json_path = "", data_dict = {}, code = ""):
+    def __init__(self, json_path = "", data_dict = {}, code = "", name = ""):
+
+        self.name = name
         if json_path != "":
             self.init_from_json(json_path=json_path)
         elif code != "":
@@ -13,6 +15,19 @@ class Sprung():
 
         if not self.input_valid():
             raise ValueError("Ungültige Eingabedaten für Sprung. Bitte überprüfen Sie die Parameter.")
+
+    def init_from_code(self, code_str):
+        # Erwartetes Format: "start ende richtung rotationen schrauben position"
+        parts = code_str.strip().split()
+        if len(parts) != 6:
+            raise ValueError("Ungültiges Code-Format für Sprung!")
+        self.start = parts[0]
+        self.ende = parts[1]
+        self.richtung = parts[2]
+        self.rotationen = int(parts[3])
+        self.schrauben = int(parts[4])
+        self.position = parts[5]
+        self.code = self.generate_code()
 
 
     def init_from_json(self, json_path):
@@ -108,18 +123,7 @@ class Sprung():
         with open(file_path, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
 
-    def init_from_code(self, code_str):
-        # Erwartetes Format: "start ende richtung rotationen schrauben position"
-        parts = code_str.strip().split()
-        if len(parts) != 6:
-            raise ValueError("Ungültiges Code-Format für Sprung!")
-        self.start = parts[0]
-        self.ende = parts[1]
-        self.richtung = parts[2]
-        self.rotationen = int(parts[3])
-        self.schrauben = int(parts[4])
-        self.position = parts[5]
-        self.code = self.generate_code()
+    
 
 if __name__ == "__main__":
     # Bauch-Test
