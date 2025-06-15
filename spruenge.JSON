@@ -32,15 +32,9 @@
   "B S r 1 0 a": "Sitz",
   "S R r 1 0 a": "Rücken",
   "B S r 1 1 a": "1/2 Sitz",
-  "R S v 1 1 a": "1/2 Sitz",
   "R R - 0 0 a": "Rücken a",
-  "R R - 0 0 b": "Rücken b",
-  "R R - 0 0 c": "Rücken c",
   "S R v 1 1 a": "1/2 Rücken",
   "S S - 0 0 a": "Sitz a",
   "S S - 0 0 b": "Sitz b",
-  "S S - 0 0 c": "Sitz c",
-  "B B - 0 0 a": "Bauch a",
-  "B B - 0 0 b": "Bauch b",
-  "B B - 0 0 c": "Bauch c"
+  "S S - 0 0 c": "Sitz c"
 }

@@ -60,7 +60,7 @@ class Sprung():
         if self.rotationen == 0:
             if self.richtung != "-":
                 return False
-        else:
+        else: #self.rotationen > 0:
             if self.richtung == "-":
                 return False
             
