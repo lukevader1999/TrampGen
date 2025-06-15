@@ -123,6 +123,13 @@ class Sprung():
         with open(file_path, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
 
+    def __eq__(self, other):
+        if not isinstance(other, Sprung):
+            return NotImplemented
+        return self.code == other.code
+
+    def __hash__(self):
+        return hash(self.code)
     
 
 if __name__ == "__main__":
