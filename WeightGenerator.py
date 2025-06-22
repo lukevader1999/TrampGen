@@ -5,8 +5,6 @@ class WeightGenerator:
     def __init__(self, sprung_list: list[Sprung]):
         self.sprung_list = sprung_list
         self.set_weights_by_equivalence()
-        for sprung in self.sprung_list:
-            sprung.print_self()
 
     def set_weights_by_equivalence(self):
         """
