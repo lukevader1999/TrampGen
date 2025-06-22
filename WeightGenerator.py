@@ -35,4 +35,9 @@ class WeightGenerator:
                 sprung.ende
             )
             anzahl = len(eq_dict[key])
-            sprung.weight = 1 / anzahl if anzahl > 0 else 1
+
+            weight = 1
+            if anzahl > 1:
+                weight = 1/2
+
+            sprung.weight = weight

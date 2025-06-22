@@ -49,7 +49,7 @@ class KuerGenerator:
 
         return sprung
 
-    def get_new_kuer(self):
+    def get_new_kuer(self) -> list[Sprung]:
         self.used: set[Sprung] = set()
         kuer: list[Sprung] = []
 
