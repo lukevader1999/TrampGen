@@ -6,6 +6,7 @@ class Sprung():
     def __init__(self, json_path = "", data_dict = {}, code = "", name = ""):
 
         self.name: str = name
+        self.weight = 1
         if json_path != "":
             self.init_from_json(json_path=json_path)
         elif code != "":
@@ -100,6 +101,7 @@ class Sprung():
         print(f"    Position: {self.position}")
         print(f"    Start: {self.start}")
         print(f"    Ende: {self.ende}")
+        print(f"    Weight: {self.weight}")
 
     
     def save_sprung(self, file_path=""):
