@@ -24,7 +24,7 @@ def find_next_jump(spruenge, used, endpos, sprung_filter):
     return random.choice(candidates)
 
 
-def generate_kuer(sprung_filter):
+def generate_kuer(sprung_filter) -> list[Sprung]:
     spruenge = build_sprung_objects()
     start_spruenge = [s for s in spruenge if s.start == "F" and sprung_filter.match(s)]
     used = set()
@@ -43,7 +43,6 @@ def generate_kuer(sprung_filter):
     sprung = random.choice(end_spruenge)
     kuer.append(sprung)
     return kuer
-
 
 def main():
     sprung_filter = SprungFilter(max_rotationen=2, max_schrauben=1,filter_json_path="filter.json")

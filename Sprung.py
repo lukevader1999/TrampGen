@@ -5,7 +5,7 @@ from berechne_endposition import berechne_endposition
 class Sprung():
     def __init__(self, json_path = "", data_dict = {}, code = "", name = ""):
 
-        self.name = name
+        self.name: str = name
         if json_path != "":
             self.init_from_json(json_path=json_path)
         elif code != "":
