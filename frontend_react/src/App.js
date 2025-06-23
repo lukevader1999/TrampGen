@@ -1,23 +1,44 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
 
 function App() {
+  const [liste, setListe] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
+
+  const fetchListe = () => {
+    setLoading(true);
+    setError(null);
+    fetch('/generate_kuer')
+      .then(res => {
+        if (!res.ok) throw new Error('Fehler beim Laden der Liste');
+        return res.json();
+      })
+      .then(data => {
+        setListe(data.liste)
+      })
+      .catch(err => {
+        setError(err.message)
+      })
+      .finally(() => {
+        setLoading(false)
+      });
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello World! Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Kür-Generator</h1>
+      <button onClick={fetchListe} disabled={loading}>
+        {loading ? 'Lade...' : 'Neue Kür generieren'}
+      </button>
+      {error && <p style={{color: 'red'}}>{error}</p>}
+      <ol className="kuer-liste">
+        {liste.map((item, idx) => (
+          <li key={idx} className="kuer-item">
+            <span className="kuer-nummer">{idx + 1}.</span> {item}
+          </li>
+        ))}
+      </ol>
     </div>
   );
 }

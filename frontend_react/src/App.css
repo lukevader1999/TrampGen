@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.kuer-liste {
+  list-style: none;
+  padding: 0;
+  margin: 2rem auto;
+  max-width: 400px;
+  text-align: left;
+}
+
+.kuer-item {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  margin: 0.25rem 0;
+  justify-content: flex-start;
+}
+
+.kuer-nummer {
+  display: inline-block;
+  width: 2em;
+  text-align: right;
+  font-weight: bold;
+  margin-right: 0.7em;
+  color: #000000;
+}
