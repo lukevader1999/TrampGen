@@ -1,14 +1,21 @@
-from flask import Flask, jsonify, send_from_directory
+from flask import Flask, jsonify, send_from_directory, request
 from KuerGenerator import KuerGenerator
+from FilterPresets import defaultPresetFilter, keinFilterPreset
 import os
 
 app = Flask(__name__, static_folder='frontend_react/build', static_url_path='')
 
-myKuerGenerator = KuerGenerator()
+FILTER_PRESETS = {
+    "keinFilter": keinFilterPreset,
+    "defaultFilter": defaultPresetFilter,
+}
 
 @app.route('/generate_kuer', methods=['GET'])
 def generate_kuer():
-    liste = myKuerGenerator.get_new_kuer()
+    preset = request.args.get('preset', 'keinFilter')
+    sprung_filter = FILTER_PRESETS.get(preset, keinFilterPreset)
+    kuer_gen = KuerGenerator(sprung_filter=sprung_filter)
+    liste = kuer_gen.get_new_kuer()
     liste: list[str] = [s.name for s in liste]
     return jsonify({'liste': liste})
 

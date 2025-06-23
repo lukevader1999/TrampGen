@@ -10,7 +10,8 @@
   "S F - 0 2 a": "1 Schraube z. Stand",
   "F R v 1 1 a": "1/2 Rücken",
   "F B r 1 1 a": "1/2 Bauch",
-  "F R r 1 2 a": "1 Rücken",
+  "F R r 1 2 a": "Ganze Schraube z. Rücken",
+  "F B v 1 2 a": "Ganze Schraube z. Rücken",
   "F F - 0 0 gr": "Grätsche",
   "F F - 0 0 b": "Bücke",
   "F F - 0 0 c": "Hocke",
@@ -43,5 +44,10 @@
   "F S - 0 0 c": "Hocke z. Sitz",
   "S F - 0 0 gr": "Grätsche z. Stand",
   "S F - 0 0 b": "Bücke z. Stand",
-  "S F - 0 0 c": "Hocke z. Stand"
+  "S F - 0 0 c": "Hocke z. Stand",
+
+  "R R v 4 0 a": "Salto vw z. Rücken",
+  "R B r 2 0 a": "Muffel z. Bauch",
+  "R F r 3 0 a": "Muffel",
+  "R S r 3 0 a": "Muffel z Sitz"
 }

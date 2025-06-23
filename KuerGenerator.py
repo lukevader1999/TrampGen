@@ -7,14 +7,7 @@ from WeightGenerator import WeightGenerator
 
 
 class KuerGenerator:
-    def __init__(self, sprung_filter: SprungFilter = None):
-        if sprung_filter is None:
-            exclude_codes = {
-                "R R - 0 0 a": "Streckung z. Rücken",
-                "S S - 0 0 a": "Streckung z. Sitz"
-            }
-            exclude_codes = exclude_codes.keys()
-            sprung_filter = SprungFilter(max_rotationen=2, max_schrauben=1, filter_json_path="filter.json", exclude_codes=exclude_codes)
+    def __init__(self, sprung_filter: SprungFilter):
         self._set_filter(sprung_filter) 
 
     def build_sprung_objects(self) -> list[Sprung]:
