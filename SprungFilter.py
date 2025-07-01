@@ -12,8 +12,9 @@ class SprungFilter:
                 exclude_starts=None, 
                 exclude_endes=None,
                 exclude_codes=None,
-                filter_json_path="filter.json"):
-        
+                filter_json_path="filter.json",
+                costum_functions: list[callable[[Sprung], bool]] = None):
+
         self.max_rotationen = max_rotationen
         self.max_schrauben = max_schrauben
         self.start = start if start is None or isinstance(start, list) else [start]
@@ -22,6 +23,7 @@ class SprungFilter:
         self.exclude_starts = exclude_starts or []
         self.exclude_endes = exclude_endes or []
         self.exclude_codes = set(exclude_codes) if exclude_codes else set()
+        self.costum_functions = costum_functions
 
         # Filter-JSON laden und Codes ergänzen
         if filter_json_path:
@@ -52,6 +54,9 @@ class SprungFilter:
             return False
         if hasattr(sprung, 'code') and sprung.code in self.exclude_codes:
             return False
+        if self.costum_functions:
+            if any(func(sprung) is False for func in self.costum_functions):
+                return False
         return True
 
     def filter(self, sprung_liste: ls[Sprung]) -> ls[Sprung]:
