@@ -15,7 +15,8 @@ class Sprung():
             self.init_from_dict(data_dict=data_dict)
 
         if not self.input_valid():
-            raise ValueError("Ungültige Eingabedaten für Sprung. Bitte überprüfen Sie die Parameter.")
+            error_string = f"Ungültige Eingabedaten für Sprung {self.name} with code {self.code}! Bitte überprüfen Sie die Parameter."
+            raise ValueError(error_string)
 
     def init_from_code(self, code_str):
         # Erwartetes Format: "start ende richtung rotationen schrauben position"
@@ -68,7 +69,7 @@ class Sprung():
             return False
         if self.ende not in ["F", "B", "R", "S"]:
             return False
-        if self.position not in ["a", "b", "c", "gr"]:
+        if self.position not in ["a", "b", "c", "gr", "-"]:
             return False
         
         #Ohne Rotationen muss die Richtung nicht definiert sein
@@ -76,9 +77,9 @@ class Sprung():
         if self.rotationen == 0:
             if self.richtung != "-":
                 return False
-        else: #self.rotationen > 0:
-            if self.richtung == "-":
-                return False
+        #else: #self.rotationen > 0:
+            #if self.richtung == "-":
+                #return False
             
         if self.position == "gr":
             if self.rotationen != 0 or self.schrauben != 0:
@@ -144,6 +145,6 @@ if __name__ == "__main__":
     #mySprungRuecken = Sprung(json_path=json_path_ruecken)
     #mySprungRuecken.save_sprung()
     #Komischer Sprung
-    code = "F S - 0 0 a"
+    code = "R B v 2 0 -"
     mySprungKomisch = Sprung(code=code)
     print(mySprungKomisch.input_valid())

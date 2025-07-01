@@ -1,5 +1,5 @@
 from Sprung import Sprung
-from typing import List as ls
+from typing import List as ls, Callable
 import json
 
 class SprungFilter:
@@ -13,7 +13,7 @@ class SprungFilter:
                 exclude_endes=None,
                 exclude_codes=None,
                 filter_json_path="filter.json",
-                costum_functions: list[callable[[Sprung], bool]] = None):
+                costum_functions: list[Callable[[Sprung], bool]] = None):
 
         self.max_rotationen = max_rotationen
         self.max_schrauben = max_schrauben
