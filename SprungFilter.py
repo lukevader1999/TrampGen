@@ -55,8 +55,9 @@ class SprungFilter:
         if hasattr(sprung, 'code') and sprung.code in self.exclude_codes:
             return False
         if self.costum_functions:
-            if any(func(sprung) is False for func in self.costum_functions):
-                return False
+            for func in self.costum_functions:
+                if not func(sprung):
+                    return False
         return True
 
     def filter(self, sprung_liste: ls[Sprung]) -> ls[Sprung]:

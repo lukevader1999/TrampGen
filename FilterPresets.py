@@ -16,3 +16,21 @@ exclude_codes = {
 }
 
 keinFilterPreset = SprungFilter(exclude_codes=exclude_codes)
+
+#Muffelsausen Plicht 1
+def filter_function_muffelsausen_1(sprung):
+    if sprung.start == "B" or sprung.ende == "B":
+        return False
+    if sprung.rotationen > 1:
+        return False
+    max_schrauben = 1
+    if sprung.start == "F" and sprung.ende == "F":
+        max_schrauben = 2
+    if max_schrauben < sprung.schrauben:
+        return False
+    return True
+
+muffelsausen1PresetFilter = SprungFilter(
+    max_rotationen=1, 
+    max_schrauben=2, 
+    costum_functions=[filter_function_muffelsausen_1])

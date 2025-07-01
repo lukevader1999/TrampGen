@@ -4,6 +4,7 @@ import './App.css';
 const FILTERS = [
   { key: 'keinFilter', label: 'Kein Filter' },
   { key: 'defaultFilter', label: 'Standard-Filter' },
+  { key: 'muffelsausen1Filter', label: 'Muffelsausen 1' },
 ];
 
 function App() {
