@@ -1,14 +1,15 @@
 from flask import Flask, jsonify, send_from_directory, request
 from KuerGenerator import KuerGenerator
-from FilterPresets import defaultPresetFilter, keinFilterPreset, muffelsausen1PresetFilter
+from FilterPresets import keinFilterPreset, muffelsausen1PresetFilter, muffelsausen2PresetFilter, muffelsausen3PresetFilter
 import os
 
 app = Flask(__name__, static_folder='frontend_react/build', static_url_path='')
 
 FILTER_PRESETS = {
     "keinFilter": keinFilterPreset,
-    "defaultFilter": defaultPresetFilter,
     "muffelsausen1Filter": muffelsausen1PresetFilter,
+    "muffelsausen2Filter": muffelsausen2PresetFilter,
+    "muffelsausen3Filter": muffelsausen3PresetFilter,
 }
 
 @app.route('/generate_kuer', methods=['GET'])

@@ -3,8 +3,9 @@ import './App.css';
 
 const FILTERS = [
   { key: 'keinFilter', label: 'Kein Filter' },
-  { key: 'defaultFilter', label: 'Standard-Filter' },
   { key: 'muffelsausen1Filter', label: 'Muffelsausen 1' },
+  { key: 'muffelsausen2Filter', label: 'Muffelsausen 2' },
+  { key: 'muffelsausen3Filter', label: 'Muffelsausen 3' },
 ];
 
 function App() {
